@@ -1,0 +1,564 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DebugMenu" Collapsed="true">
+    <Position X="15.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Debug\DebugMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HUDFPS" Collapsed="true">
+    <Position X="24" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAQAAAAAAAAIAAAQABAAA=</HashCode>
+      <FileName>Assets\Scripts\Debug\HUDFPS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BezierPath" Collapsed="true">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAIgAAAAABAIQAAIAACAEATAAgAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\DrawController\BezierPath.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DrawScript" Collapsed="true">
+    <Position X="18.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAgAKMCCAAAgAAAACAAAAAAAAgCkCAAAAAAAAQAAA=</HashCode>
+      <FileName>Assets\Scripts\DrawController\DrawScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lineRenderer" Collapsed="true">
+    <Position X="10" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAAAAAACAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Assets\Scripts\DrawController\lineRenderer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FadeBehaviour" Collapsed="true">
+    <Position X="22.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CASAAAEAACCAAgAIAAAAAAACAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Effects\FadeBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GlowEffect" Collapsed="true">
+    <Position X="18.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAKAAAAAACAAAIAAIAABEAAAAAAgAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Effects\GlowEffect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rotation" Collapsed="true">
+    <Position X="17" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASEAAAAACAAAAAAAAAAAAAAEAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Effects\Rotation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScreenColorOverlay" Collapsed="true">
+    <Position X="18.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAAAAAACAAAAgAAAAAAAAAgARAAAAAQIiAAAAIAEA=</HashCode>
+      <FileName>Assets\Scripts\Effects\ScreenColorOverlay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmoothTranslation" Collapsed="true">
+    <Position X="11.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIAAAACAAAAAAAQAAAAAAEAAIAAAAAAQCAAAAAAI=</HashCode>
+      <FileName>Assets\Scripts\Effects\SmoothTranslation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraBehaviour" Collapsed="true">
+    <Position X="18.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAACQAAKAANAAILAAQAAAAgAAQAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Assets\Scripts\Game\Camera\CameraBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionHandler" Collapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAgAAAAAAAIAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Assets\Scripts\Game\Character\CollisionHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GestureController" Collapsed="true">
+    <Position X="15.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQIAEBCiCAAAAEECgGAIBGCAgEAIAQAEBQAAEkAMAo=</HashCode>
+      <FileName>Assets\Scripts\Game\Character\Gestures\GestureController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HeadGesturer" Collapsed="true">
+    <Position X="20.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAIAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Game\Character\Gestures\HeadGesturer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IK" Collapsed="true">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAgAAAgECAAAAxmoIGAIAAAIgAAAAAAQAAIABAAABA=</HashCode>
+      <FileName>Assets\Scripts\Game\Character\Gestures\IK.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KinectController" Collapsed="true">
+    <Position X="18.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAIEAAgAAAEAgEAAAAIAgAAAgRAAAAASAAABggAEg=</HashCode>
+      <FileName>Assets\Scripts\Game\Character\Gestures\KinectController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InputManager" Collapsed="true">
+    <Position X="13.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAQCAHgAAOAAQRAESCgBFggAIMRAACZYMCHSNjKgYQE=</HashCode>
+      <FileName>Assets\Scripts\Game\Character\InputManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JumpColliderCheck" Collapsed="true">
+    <Position X="15.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAACAAAAAAAAAAAAAQwAAAMAAIQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Game\Character\JumpColliderCheck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlatformerController" Collapsed="true">
+    <Position X="11.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQBEUgIgjmAJAUAAAQAQgABBhIRCQQGSgYj0ghEBPA=</HashCode>
+      <FileName>Assets\Scripts\Game\Character\PlatformerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseSkillHandler" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARAAAAAACAAAiAAAAAAAAAAAAAAAwBAAEAAAAAAIAA=</HashCode>
+      <FileName>Assets\Scripts\Game\Character\Skills\BaseSkillHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChineseSkillHandler" Collapsed="true">
+    <Position X="0.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAQEAACABAAAhAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Game\Character\Skills\ChineseSkillHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EurasianSkillHandler" Collapsed="true">
+    <Position X="3" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCEBAJCCAAACQMAACAAAAIhAAAAAAIAAAAAAAQDIA=</HashCode>
+      <FileName>Assets\Scripts\Game\Character\Skills\EurasianSkillHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IndianSkillHandler" Collapsed="true">
+    <Position X="5.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAIACAAACQMAAAABAAABAAAAAAAIAAAAAAQBAA=</HashCode>
+      <FileName>Assets\Scripts\Game\Character\Skills\IndianSkillHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MalaySkillHandler" Collapsed="true">
+    <Position X="7.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAICCAAAAQEAAAABAAIhAAAAAAAAAAAAAAABIA=</HashCode>
+      <FileName>Assets\Scripts\Game\Character\Skills\MalaySkillHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CloudEmitter" Collapsed="true">
+    <Position X="22.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQMCAAAAKAIBAAAAAgQAABIAwCBEAgABAAgQAAECAI=</HashCode>
+      <FileName>Assets\Scripts\Game\Environment\Background\CloudEmitter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CloudLightningEmitter" Collapsed="true">
+    <Position X="24" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEAEAAACAILQAAAIAACAAAgBAACAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Assets\Scripts\Game\Environment\Background\CloudLightningEmitter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreditsRoll" Collapsed="true">
+    <Position X="11.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AISAABAAACAAEQAAAAAAAAAAAABAAQAgAAAgAAAAAIA=</HashCode>
+      <FileName>Assets\Scripts\Game\Environment\BehaviourCycles\CreditsRoll.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ElevatorFixedMoveTo" Collapsed="true">
+    <Position X="20.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAIgACAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAE=</HashCode>
+      <FileName>Assets\Scripts\Game\Environment\BehaviourCycles\ElevatorFixedMoveTo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjectFadeCycle" Collapsed="true">
+    <Position X="10" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ggQACAAAgSgACgBAAAASAgAAAAAAACACgAAABQCAAgA=</HashCode>
+      <FileName>Assets\Scripts\Game\Environment\BehaviourCycles\ObjectFadeCycle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TranslationXCycle" Collapsed="true">
+    <Position X="17" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gBQAAAAAACAAkQAAAAAIAAAAgEAAAQAAAAAAARAAAIA=</HashCode>
+      <FileName>Assets\Scripts\Game\Environment\BehaviourCycles\TranslationXCycle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TranslationYCycle" Collapsed="true">
+    <Position X="18.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gCQAAAAAACAAkQAAAAAIAAAAgEAAAQAAAAAAASAAAIE=</HashCode>
+      <FileName>Assets\Scripts\Game\Environment\BehaviourCycles\TranslationYCycle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TranslationZCycle" Collapsed="true">
+    <Position X="20.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gEQABAAAACAAkQAAAAAIAAAAgEAAAQAAAAAAAUAAAIA=</HashCode>
+      <FileName>Assets\Scripts\Game\Environment\BehaviourCycles\TranslationZCycle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinishEventElevatorUp" Collapsed="true">
+    <Position X="24" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAEAAABAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Game\EventTriggers\FinishEventElevatorUp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinishPointTrigger" Collapsed="true">
+    <Position X="10" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAAAIAACAgCAAAAAAAAAAAAAAAAIAAQAAAAgAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Game\EventTriggers\FinishPointTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScreenshotFlash" Collapsed="true">
+    <Position X="20.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAABAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Game\EventTriggers\Screenshot\ScreenshotFlash.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScreenshotTrigger" Collapsed="true">
+    <Position X="22.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgAAAAACAAIAoBAAAAAAACAAAAAIGAQAIABAQAAMA=</HashCode>
+      <FileName>Assets\Scripts\Game\EventTriggers\Screenshot\ScreenshotTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SwitchTrigger" Collapsed="true">
+    <Position X="15.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAACAAAAQAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Game\EventTriggers\SwitchTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeathTimer" Collapsed="true">
+    <Position X="13.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIVAAgAAACAAQAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Assets\Scripts\Game\GameLogic\DeathTimer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GhostBehaviour" Collapsed="true">
+    <Position X="17" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Game\GameLogic\GhostBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InitCharacters" Collapsed="true">
+    <Position X="11.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAiAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Game\GameLogic\InitCharacters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KillerLitterBehaviour" Collapsed="true">
+    <Position X="17" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAgAAAAAAQAAEABEAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Game\GameLogic\KillerLitterBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LevelData" Collapsed="true">
+    <Position X="22.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAIAAQCAAAAAAAAAAAgiAAAJAAAAAQAAAAEAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Game\GameLogic\LevelData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AccessibilityHUD" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAECAAQAgAAAAAAAAAoQAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Game\UI\AccessibilityHUD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelpMenu" Collapsed="true">
+    <Position X="22.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAECQgiAAQAgACoAAAAAAEABAACAIEIKAAiBIAAA=</HashCode>
+      <FileName>Assets\Scripts\Game\UI\HelpMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PauseMenu" Collapsed="true">
+    <Position X="10" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABSQAAAQoCAAQAgCAAAABQEAAAAIAAAEEAKAAAAAIAA=</HashCode>
+      <FileName>Assets\Scripts\Game\UI\PauseMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkillIcon" Collapsed="true">
+    <Position X="10" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABAACASAAQIgAAAAACAAAAACCAAAEAACAAAAAIEA=</HashCode>
+      <FileName>Assets\Scripts\Game\UI\SkillIcon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AspectUtility" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYABAAAACBAAIggAAAKAAAAAAAAIBAAABCwQAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Global\AspectUtility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FunctionCallHelper" Collapsed="true">
+    <Position X="11.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAACEAAghAAAAAQIAAAACAAAI=</HashCode>
+      <FileName>Assets\Scripts\Global\Helper\FunctionCallHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameObjectHelper" Collapsed="true">
+    <Position X="13.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAABAAASAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Global\Helper\GameObjectHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KinectCursor" Collapsed="true">
+    <Position X="20.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAAAAAACIAUQgAAAggAAAAACAIAAAgAACABAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Global\KinectCursor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LevelManager" Collapsed="true">
+    <Position X="24" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAAFAAACAAAAAAAIAAAAAAAABAAAEAQAQAAAACIEA=</HashCode>
+      <FileName>Assets\Scripts\Global\LevelManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LocalData" Collapsed="true">
+    <Position X="13.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Global\LocalData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerData" Collapsed="true">
+    <Position X="13.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgAAAAACIAIABAAAAIAAggAAABAACAAgAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Global\PlayerData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CharacterSelection" Collapsed="true">
+    <Position X="20.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAABAKCCEIQgkAAgACIAACEBADACEIEALAQCCIGEA=</HashCode>
+      <FileName>Assets\Scripts\Menu\CharacterSelection\CharacterSelection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LookAtCamera" Collapsed="true">
+    <Position X="15.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Menu\CharacterSelection\LookAtCamera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SelectionData" Collapsed="true">
+    <Position X="24" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQBAAwAACAAABAAAQAAAAAAAAAAABAABAAEAEAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Menu\CharacterSelection\SelectionData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitTextManager" Collapsed="true">
+    <Position X="15.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgZAAAQAACAABAAAAAAACAAAAEAAIABAAACBAAAABEg=</HashCode>
+      <FileName>Assets\Scripts\Menu\Common\BitTextManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoundsButton" Collapsed="true">
+    <Position X="17" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAABAAwAAAAAAAAAAAAAAAAAAAIACAMAAIIA=</HashCode>
+      <FileName>Assets\Scripts\Menu\Common\BoundsButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoadingScreenManager" Collapsed="true">
+    <Position X="11.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAGAIiCAVAgESgBAAAAEEAQICCAIEEKAAiRIAEA=</HashCode>
+      <FileName>Assets\Scripts\Menu\LoadingScreen\LoadingScreenManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MenuStateManager" Collapsed="true">
+    <Position X="17" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAQACBAIAAAMDgIMAAAAAACAAAgABAEAAAABAg=</HashCode>
+      <FileName>Assets\Scripts\Menu\MainMenu\MenuStateManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SplashScreenManager" Collapsed="true">
+    <Position X="13.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAABAAACAAAAAAAEAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Menu\SplashScreen\SplashScreenManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DisconnectionHandler" Collapsed="true">
+    <Position X="17" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACACAAAAAAAABAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Networking\DisconnectionHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MMClient" Collapsed="true">
+    <Position X="18.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gDYAgGCCSCYAIAggCCIHEEI5DAYJABAYsAQwAAYgAgE=</HashCode>
+      <FileName>Assets\Scripts\Networking\MMClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetworkTime" Collapsed="true">
+    <Position X="20.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACEAAAAACAAAAAAAAABAAAAAQAAAAAIAAUA=</HashCode>
+      <FileName>Assets\Scripts\Networking\NetworkTime.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Unity_DepthToTexture" Collapsed="true">
+    <Position X="22.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwBIggAIiBNAAgBAAAYQAAAEAAAAAAAEAAAACACAAA=</HashCode>
+      <FileName>Assets\Scripts\NITE\_OpenNI_DataToTextures\Unity_DepthToTexture.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Unity_ImageToTexture" Collapsed="true">
+    <Position X="24" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACwBIggAIiAAAAggAAAYgAAAAAAAAAAAAAAASCACAAA=</HashCode>
+      <FileName>Assets\Scripts\NITE\_OpenNI_DataToTextures\Unity_ImageToTexture.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Unity_LabelToTexture" Collapsed="true">
+    <Position X="10" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AA4BIggAIiAAAAgAAAAYAAACgAAAAAAIAAAAACACAAA=</HashCode>
+      <FileName>Assets\Scripts\NITE\_OpenNI_DataToTextures\Unity_LabelToTexture.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NITEControl" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIBAAAAAAAAAAAAABIAAIAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripts\NITE\NITEControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NITECursor" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAEgAEABGgAAAAgAIAAAQCgAIAAgACAACASBAAQAAEA=</HashCode>
+      <FileName>Assets\Scripts\NITE\NITECursor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NITEGUI" Collapsed="true">
+    <Position X="22.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QkAAAIABAAAAEAAAAACAAAAAAAAAAAAQAEAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripts\NITE\NITEGUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NITESessionManager" Collapsed="true">
+    <Position X="24" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIUAABAEAiAAABAQACAAIAAAAAAAIAAAAAAAAAEAAEA=</HashCode>
+      <FileName>Assets\Scripts\NITE\NITESessionManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenNIContext" Collapsed="true">
+    <Position X="11.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAAACAABAAAAACAAAQAgABEABAgQAACAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\NITE\OpenNIContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenNIDepthmapViewer" Collapsed="true">
+    <Position X="13.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwBIggAIiBNAAgBAAAYQAAAkAAAAAABEACAACACAAA=</HashCode>
+      <FileName>Assets\Scripts\NITE\OpenNIDepthmapViewer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenNIImagemapViewer" Collapsed="true">
+    <Position X="15.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACwBIgoAIiAAAAggAAAYgAAAgAAAAAABAACAACACAAA=</HashCode>
+      <FileName>Assets\Scripts\NITE\OpenNIImagemapViewer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenNILabelmapViewer" Collapsed="true">
+    <Position X="17" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AA4BIggAIiAAAAgAAAAYAAACgAAAAAAJAACAACACAAA=</HashCode>
+      <FileName>Assets\Scripts\NITE\OpenNILabelmapViewer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenNISingleSkeletonController" Collapsed="true">
+    <Position X="18.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AFQAAAIAAiABQEgACAAAIQACAAAAAAAIAAKAAAAACAA=</HashCode>
+      <FileName>Assets\Scripts\NITE\OpenNISingleSkeletonController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenNISkeleton" Collapsed="true">
+    <Position X="20.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CoEUAAEBCyAMAIBMgAIBQACAAAQkAgYAIAAQASAIAAI=</HashCode>
+      <FileName>Assets\Scripts\NITE\OpenNISkeleton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenNIUsersRadar" Collapsed="true">
+    <Position X="22.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAEAAAAAAAAAAIAACAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\NITE\OpenNIUsersRadar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenNIUserTracker" Collapsed="true">
+    <Position X="24" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBBAAEAyAAAgAAAAAAAQARgRECAAAGgEAAABAAgAA=</HashCode>
+      <FileName>Assets\Scripts\NITE\OpenNIUserTracker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quit" Collapsed="true">
+    <Position X="15.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAABAAACAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\NITE\Quit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

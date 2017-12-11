@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{49A96CBB-B552-8E85-E7A8-8E01FE22200B}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_5_6;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_STANDALONE_WIN;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_WEBCAM;ENABLE_MICROPHONE;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW;ENABLE_SUBSTANCE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\Debug\DebugMenu.cs" />
+     <Compile Include="Assets\Scripts\Debug\HUDFPS.cs" />
+     <Compile Include="Assets\Scripts\DrawController\BezierPath.cs" />
+     <Compile Include="Assets\Scripts\DrawController\DrawScript.cs" />
+     <Compile Include="Assets\Scripts\DrawController\lineRenderer.cs" />
+     <Compile Include="Assets\Scripts\Effects\FadeBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Effects\GlowEffect.cs" />
+     <Compile Include="Assets\Scripts\Effects\Rotation.cs" />
+     <Compile Include="Assets\Scripts\Effects\ScreenColorOverlay.cs" />
+     <Compile Include="Assets\Scripts\Effects\SmoothTranslation.cs" />
+     <Compile Include="Assets\Scripts\Game\Camera\CameraBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Game\Character\CollisionHandler.cs" />
+     <Compile Include="Assets\Scripts\Game\Character\Gestures\GestureController.cs" />
+     <Compile Include="Assets\Scripts\Game\Character\Gestures\HeadGesturer.cs" />
+     <Compile Include="Assets\Scripts\Game\Character\Gestures\IK.cs" />
+     <Compile Include="Assets\Scripts\Game\Character\Gestures\KinectController.cs" />
+     <Compile Include="Assets\Scripts\Game\Character\InputManager.cs" />
+     <Compile Include="Assets\Scripts\Game\Character\JumpColliderCheck.cs" />
+     <Compile Include="Assets\Scripts\Game\Character\PlatformerController.cs" />
+     <Compile Include="Assets\Scripts\Game\Character\Skills\BaseSkillHandler.cs" />
+     <Compile Include="Assets\Scripts\Game\Character\Skills\ChineseSkillHandler.cs" />
+     <Compile Include="Assets\Scripts\Game\Character\Skills\EurasianSkillHandler.cs" />
+     <Compile Include="Assets\Scripts\Game\Character\Skills\IndianSkillHandler.cs" />
+     <Compile Include="Assets\Scripts\Game\Character\Skills\MalaySkillHandler.cs" />
+     <Compile Include="Assets\Scripts\Game\Environment\Background\CloudEmitter.cs" />
+     <Compile Include="Assets\Scripts\Game\Environment\Background\CloudLightningEmitter.cs" />
+     <Compile Include="Assets\Scripts\Game\Environment\BehaviourCycles\CreditsRoll.cs" />
+     <Compile Include="Assets\Scripts\Game\Environment\BehaviourCycles\ElevatorFixedMoveTo.cs" />
+     <Compile Include="Assets\Scripts\Game\Environment\BehaviourCycles\KillerLitterSpawner.cs" />
+     <Compile Include="Assets\Scripts\Game\Environment\BehaviourCycles\ObjectFadeCycle.cs" />
+     <Compile Include="Assets\Scripts\Game\Environment\BehaviourCycles\TranslationXCycle.cs" />
+     <Compile Include="Assets\Scripts\Game\Environment\BehaviourCycles\TranslationYCycle.cs" />
+     <Compile Include="Assets\Scripts\Game\Environment\BehaviourCycles\TranslationZCycle.cs" />
+     <Compile Include="Assets\Scripts\Game\Environment\KillerLitterBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Game\EventTriggers\FinishEventElevatorUp.cs" />
+     <Compile Include="Assets\Scripts\Game\EventTriggers\FinishPointTrigger.cs" />
+     <Compile Include="Assets\Scripts\Game\EventTriggers\Screenshot\ScreenshotFlash.cs" />
+     <Compile Include="Assets\Scripts\Game\EventTriggers\Screenshot\ScreenshotTrigger.cs" />
+     <Compile Include="Assets\Scripts\Game\EventTriggers\SwitchTrigger.cs" />
+     <Compile Include="Assets\Scripts\Game\GameLogic\GhostBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Game\GameLogic\InitCharacters.cs" />
+     <Compile Include="Assets\Scripts\Game\GameLogic\LevelData.cs" />
+     <Compile Include="Assets\Scripts\Game\UI\AccessibilityHUD.cs" />
+     <Compile Include="Assets\Scripts\Game\UI\HelpMenu.cs" />
+     <Compile Include="Assets\Scripts\Game\UI\PauseMenu.cs" />
+     <Compile Include="Assets\Scripts\Game\UI\SkillIcon.cs" />
+     <Compile Include="Assets\Scripts\Global\AspectUtility.cs" />
+     <Compile Include="Assets\Scripts\Global\Helper\FunctionCallHelper.cs" />
+     <Compile Include="Assets\Scripts\Global\Helper\GameObjectHelper.cs" />
+     <Compile Include="Assets\Scripts\Global\KinectCursor.cs" />
+     <Compile Include="Assets\Scripts\Global\LevelManager.cs" />
+     <Compile Include="Assets\Scripts\Global\LocalData.cs" />
+     <Compile Include="Assets\Scripts\Global\PlayerData.cs" />
+     <Compile Include="Assets\Scripts\Menu\CharacterSelection\CharacterSelection.cs" />
+     <Compile Include="Assets\Scripts\Menu\CharacterSelection\LookAtCamera.cs" />
+     <Compile Include="Assets\Scripts\Menu\CharacterSelection\SelectionData.cs" />
+     <Compile Include="Assets\Scripts\Menu\Common\BitTextManager.cs" />
+     <Compile Include="Assets\Scripts\Menu\Common\BoundsButton.cs" />
+     <Compile Include="Assets\Scripts\Menu\LoadingScreen\LoadingScreenManager.cs" />
+     <Compile Include="Assets\Scripts\Menu\MainMenu\MenuStateManager.cs" />
+     <Compile Include="Assets\Scripts\Menu\SplashScreen\SplashScreenManager.cs" />
+     <Compile Include="Assets\Scripts\NITE\NITEControl.cs" />
+     <Compile Include="Assets\Scripts\NITE\NITECursor.cs" />
+     <Compile Include="Assets\Scripts\NITE\NITEGUI.cs" />
+     <Compile Include="Assets\Scripts\NITE\NITESessionManager.cs" />
+     <Compile Include="Assets\Scripts\NITE\OpenNIContext.cs" />
+     <Compile Include="Assets\Scripts\NITE\OpenNIDepthmapViewer.cs" />
+     <Compile Include="Assets\Scripts\NITE\OpenNIImagemapViewer.cs" />
+     <Compile Include="Assets\Scripts\NITE\OpenNILabelmapViewer.cs" />
+     <Compile Include="Assets\Scripts\NITE\OpenNISingleSkeletonController.cs" />
+     <Compile Include="Assets\Scripts\NITE\OpenNISkeleton.cs" />
+     <Compile Include="Assets\Scripts\NITE\OpenNIUserTracker.cs" />
+     <Compile Include="Assets\Scripts\NITE\OpenNIUsersRadar.cs" />
+     <Compile Include="Assets\Scripts\NITE\Quit.cs" />
+     <Compile Include="Assets\Scripts\NITE\_OpenNI_DataToTextures\Unity_DepthToTexture.cs" />
+     <Compile Include="Assets\Scripts\NITE\_OpenNI_DataToTextures\Unity_ImageToTexture.cs" />
+     <Compile Include="Assets\Scripts\NITE\_OpenNI_DataToTextures\Unity_LabelToTexture.cs" />
+     <Compile Include="Assets\Scripts\Networking\DisconnectionHandler.cs" />
+     <Compile Include="Assets\Scripts\Networking\MMClient.cs" />
+     <Compile Include="Assets\Scripts\Networking\NetworkTime.cs" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+ <Reference Include="OpenNI.Net">
+ <HintPath>Assets\Scripts\NITE\_Net\OpenNI.Net.dll</HintPath>
+ </Reference>
+ <Reference Include="Policy.1.3.XnVNITE.net_1_3_1">
+ <HintPath>Assets\Scripts\NITE\_Net\Policy.1.3.XnVNITE.net_1_3_1.dll</HintPath>
+ </Reference>
+ <Reference Include="XnVNITE.net_1_3_1">
+ <HintPath>Assets\Scripts\NITE\_Net\XnVNITE.net_1_3_1.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
